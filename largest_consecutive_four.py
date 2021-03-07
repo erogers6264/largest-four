@@ -32,6 +32,6 @@ def largest_consecutive_four(list_of_ints):
 total_customers_per_half_hour = [10, 13, 6, 25, 32, 49, 49, 56, 48, 54, 42, 39, 39, 28, 39, 26, 25, 27, 21, 24, 17, 16, 16, 21, 19, 12, 17, 17, 11, 7, 11, 14, 16, 6, 7]
 
 # Test to see if our function works
-# (Should return [3, 4, 5, 6])
+# (Should return [56, 48, 54, 42])
 print(largest_consecutive_four(total_customers_per_half_hour))
 
