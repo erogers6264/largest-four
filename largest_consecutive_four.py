@@ -16,7 +16,7 @@ def largest_consecutive_four(list_of_ints):
 	for i, total in enumerate(list_of_ints[:-3]):
 		# Calculate the sum of the current element
 		# plus the next three elements
-		new_sum = total + list_of_ints[i+1] + list_of_ints[i+2]
+		new_sum = total + list_of_ints[i+1] + list_of_ints[i+2] + list_of_ints[i+3]
 		# If this sum is greater than the one we
 		# already have, this is the new best answer
 		if current_largest_sum < new_sum:
